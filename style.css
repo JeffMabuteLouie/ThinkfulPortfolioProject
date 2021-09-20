@@ -1,0 +1,40 @@
+body {
+  min-width: 350px;
+}
+
+/* uploaded a banner for the top of the website */
+header {
+  background: url(images/banner.jpg);
+  background-size: cover;
+  padding: 50px;
+}
+
+/* have title and nav centered */
+h1 {
+  color: navy;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+nav {
+  color:navy;
+  text-align: center;
+}
+
+footer {
+    background-color: darkorange;
+    height: 100px;
+    padding: 30px;
+}
+
+footer div{
+  color:navy;
+}
+
+header div, 
+main div{
+  margin: auto;
+  padding: 20px;
+  color: navy;
+  text-align: left;
+}
